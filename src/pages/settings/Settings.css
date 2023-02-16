@@ -1,0 +1,80 @@
+.settings{
+    display: flex;
+}
+.settings-wrapper{
+    flex: 9;
+    padding: 20px;
+}
+.settings-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.settings-update-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #80a3f0;
+    font-family: 'Varela', sans-serif;
+}
+.settings-delete-title{
+    color: #ff6347;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Varela', sans-serif;
+}
+.settings-form{
+    display: flex;
+    flex-direction: column;
+}
+.settingsPP{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+.settingsPP img{
+    width: 90px;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.settingsPPicon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #80a3f0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.settings-form label{
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Varela', sans-serif;
+}
+.settings-form input{
+    color: #b9b9b9;
+    margin: 10px 0px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+}
+.settings-form input:focus{
+    outline: none;
+}
+.settings-submit{
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #3b72e9;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+    font-family: 'Varela', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}

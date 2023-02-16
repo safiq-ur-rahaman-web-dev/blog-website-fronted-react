@@ -1,0 +1,66 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(15, 81, 144, 0.5)), url('https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-size: cover;
+}
+.register-title{
+    font-size: 50px;
+    font-family: 'Varela', sans-serif;
+    color: #fff;
+    letter-spacing: 5px;
+}
+.register-form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.register-form label{
+    margin: 10px 0ex;
+    font-family: 'Varela', sans-serif;
+    color: #fff;
+    font-size: 18px;
+}
+.register input{
+    padding: 10px 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid rgb(11, 68, 104);
+    font-size: 16px;
+    
+}
+.register input:focus{
+    outline: none;
+}
+.register input::placeholder{
+    color: rgba(255, 255, 255, 1);
+}
+.register-button{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgba(26, 202, 238, 0.5);
+    border:none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Varela', sans-serif;
+    border-radius: 10px;
+}
+.register-login-button{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #366d74;
+    border: none;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Varela', sans-serif;
+    cursor: pointer;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
